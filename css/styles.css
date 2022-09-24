@@ -60,10 +60,9 @@ body {
 /*----------------header-----------------*/
 
 .header {
-    background-color: var(--main-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
-    outline: 2px solid tomato;
+background-color: var(--main-color);
+padding-top: 24px;
+padding-bottom: 25px;
 }
 .header-logo span {
 font-family: 'Raleway', sans-serif;
@@ -142,10 +141,9 @@ color: var(--main-text-color);
 
 /*----------------hero-----------------*/
 .hero {
-    background-color: var(--background-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    outline: 2px solid tomato;
+background-color: var(--background-color);
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 
@@ -180,10 +178,9 @@ height: 50px;
 /*----------------feature-----------------*/
 
 .feature {
-    background-color: var(--background-second-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    outline: 2px solid tomato;
+background-color: var(--background-second-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .feature-list {
 display: flex;
@@ -214,10 +211,9 @@ height: 72px;
 /*----------------ourwork-----------------*/
 
 .ourwork {
-    background-color: var(--background-second-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    outline: 2px solid tomato;
+background-color: var(--background-second-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .ourwork-title {
 font-weight: 700;
@@ -230,8 +226,8 @@ color: var(--title-main-color);
 }
 
 .ourwork-list {
-    display: flex;
-    gap: 30px; 
+display: flex;
+gap: 30px; 
 }
 .ourwork-item {
 }
@@ -239,10 +235,9 @@ color: var(--title-main-color);
 /*----------------team-----------------*/
 
 .team {
-    background-color: var(--background-third-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    outline: 2px solid tomato;
+background-color: var(--background-third-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .team-title {
 font-weight: 700;
@@ -283,10 +278,9 @@ color: var(--main-text-color);
 /*----------------footer-----------------*/
 
 .footer {
-    background-color: var(--background-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    outline: 2px solid tomato;
+background-color: var(--background-color);
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .footer-logo span {
 font-family: 'Raleway', s;

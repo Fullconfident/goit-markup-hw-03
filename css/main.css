@@ -64,10 +64,9 @@ body {
 
 /*----------------------HEADER-------------------------*/
 .header {
-    background-color: var(--main-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
-    outline: 2px solid tomato;
+padding-bottom: 25px;
+background-color: var(--main-color);
+padding-top: 24px;
 }
 .header-logo span {
 font-family: 'Raleway', sans-serif;
@@ -147,10 +146,9 @@ color: var(--text-color);
 /*----------------------PORTFOLIO-------------------------*/
 
 .portfolio {
-    background-color:var(--main-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
-    outline: 2px solid tomato;
+background-color:var(--main-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .portfolio-list-btn {
     display: flex;
@@ -188,8 +186,8 @@ margin-bottom: 50px;
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: var(--main-color);
-    background-color: var(--second-main-color);
+color: var(--main-color);
+background-color: var(--second-main-color);
 }
 
 
@@ -210,10 +208,9 @@ color: var(--text-color);
 /*----------------------FOOTER-------------------------*/
 
 .footer {
-    background-color: var(--background-footer-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
-    outline: 2px solid tomato;
+background-color: var(--background-footer-color);
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .footer-logo span {
 font-family: 'Raleway', sans-serif;
