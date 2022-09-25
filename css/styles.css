@@ -19,10 +19,15 @@ p, h1, h2, h3, h4, h5, h6{
 
 ul,ol {
     margin: 0;
+    padding-left: 0;
 }
 
 img {
     display:block;
+}
+
+address {
+    font-style: normal;
 }
 
 body {
@@ -61,8 +66,6 @@ body {
 
 .header {
 background-color: var(--main-color);
-padding-top: 24px;
-padding-bottom: 25px;
 }
 .header-logo span {
 font-family: 'Raleway', sans-serif;
@@ -104,6 +107,10 @@ font-size: 14px;
 line-height: var(--secondtipical-lh);
 letter-spacing: 0.02em;
 color: var(--main-text-color);
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
+
 }
 .header-tel {
 font-weight: 500;
@@ -111,6 +118,9 @@ font-size: 14px;
 line-height: var(--secondtipical-lh);
 letter-spacing: 0.02em;
 color: var(--main-text-color);
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 }
 .header-link:hover,
 .header-link:focus,
@@ -144,6 +154,7 @@ color: var(--main-text-color);
 background-color: var(--background-color);
 padding-top: 200px;
 padding-bottom: 200px;
+text-align: center;
 }
 
 
@@ -151,10 +162,11 @@ padding-bottom: 200px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-color);
+max-width: 696px;
 margin-bottom: 30px;
 }
 .hero-btn {
@@ -163,24 +175,23 @@ font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
 color: var(--main-color);
 border-color: transparent;
 border-radius: 4px;
-margin: 0 auto;
-display: block;
-min-width: 216px;
-height: 50px;
+padding-top: 10px;
+padding-right: 32px;
+padding-bottom: 10px;
+padding-left: 32px;
 }
 
 /*----------------feature-----------------*/
 
 .feature {
-background-color: var(--background-second-color);
+background-color: var(--main-color);
 padding-top: 94px;
-padding-bottom: 94px;
+padding-bottom: 47px;
 }
 .feature-list {
 display: flex;
@@ -211,8 +222,8 @@ height: 72px;
 /*----------------ourwork-----------------*/
 
 .ourwork {
-background-color: var(--background-second-color);
-padding-top: 94px;
+background-color: var(--main-color);
+padding-top: 47px;
 padding-bottom: 94px;
 }
 .ourwork-title {
@@ -254,7 +265,6 @@ margin-bottom: 50px;
 }
 .team-item {
     background-color: var(--main-color);
-    margin-bottom: 30px;
 }
 .team-head {
 font-weight: 500;
@@ -263,7 +273,6 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-main-color);
-margin-top: 30px;
 margin-bottom: 10px;
 
 }
@@ -273,6 +282,11 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
+}
+
+.content {
+    padding-top: 59px;
+    padding-bottom: 30px;
 }
 
 /*----------------footer-----------------*/
@@ -306,20 +320,19 @@ font-style: normal;
 .footer-address-list {
 }
 .footer-address-item {
+    margin-bottom: 9px;
 }
 .footer-address-link {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--main-color);
-margin-bottom: 9px;
 }
 .footer-address-contact {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-footer-color);
-margin-bottom: 9px;
 }
 
 .footer-address-link:hover,
