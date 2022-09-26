@@ -1,5 +1,6 @@
 :root {
 --main-color: #FFFFFF;
+--border-header-line: #ECECEC;
 --second-main-color: #2196F3;
 --text-color: #757575;
 --head-color: #212121;
@@ -14,57 +15,58 @@
 }
 
 p, h1, h2, h3, h4, h5, h6{
-    margin: 0; 
+margin: 0; 
 }
 
 ul,ol {
-    margin: 0;
-    padding-left: 0;
+margin: 0;
+padding-left: 0;
 }
 
 img {
-    display:block;
+display:block;
 }
 
 address {
-    font-style: normal;
+font-style: normal;
 }
 
 body {
-    font-family: var(--main-font);
+font-family: var(--main-font);
 }
 
 .list {
-    list-style: none;
+list-style: none;
 }
 
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
 }
 
 /*----------------------HEADER-------------------------*/
 .header {
 background-color: var(--main-color);
+border-bottom: 1px solid var(--border-header-line);
 }
 .header-logo span {
 font-family: 'Raleway', sans-serif;
@@ -85,12 +87,15 @@ color: var(--logo-color);
 }
 
 .header-logo {
- margin-right: 93px;   
+margin-right: 93px;
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;   
 }
 
 
 .header-item .header-link.current {
-    color:var(--second-main-color)
+color:var(--second-main-color)
 }
 
 .header-link {
@@ -99,6 +104,9 @@ font-size: 14px;
 line-height: var(--secondtipical-lh);
 letter-spacing: 0.02em;
 color: var(--head-color);
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 }
 .header-mail {
 font-weight: 500;
@@ -126,52 +134,57 @@ display: block;
 .header-tel:focus,
 .header-mail:hover,
 .header-mail:focus {
-    color: var(--second-main-color);
+color: var(--second-main-color);
 }
 .header-list {
-    display: flex;
-    align-items: center;
-    gap: 50px;
+display: flex;
+align-items: center;
+gap: 50px;
 }
 
 .header-navigation {
-    display: flex;
+display: flex;
 }
 
 .header-conteiner {
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 
-.header-conect {
-    margin-left: auto;
+.header-conect {margin-left: auto;
 }
 
 /*----------------------PORTFOLIO-------------------------*/
 
 .portfolio {
 background-color:var(--main-color);
-padding-top: 94px;
-padding-bottom: 94px;
+margin-top: 94px;
+margin-bottom: 94px;
 }
+
 .portfolio-list-btn {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    box-sizing: border-box;
+display: flex;
+justify-content: center;
+gap: 8px;
+box-sizing: border-box;
+padding-top: 6px;
+padding-right: 22px;
+padding-bottom: 6px;
+padding-left: 22px;
+margin-bottom: 50px;
 }
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
 }
-
 
 .portfolio-item-img {
+flex-basis: calc((100% - 60px) / 3);
 }
 .portfolio-link {
-    background-color: var(--portfolio-link-color);
+background-color: var(--portfolio-link-color);
 }
 .portfolio-btn {
 background-color: var(--btn-color);
@@ -193,13 +206,13 @@ color: var(--main-color);
 background-color: var(--second-main-color);
 }
 
-
 .portfolio-head {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--head-color);
+margin-bottom: 4px
 }
 .portfolio-text {
 font-size: 16px;
@@ -209,10 +222,10 @@ color: var(--text-color);
 }
 
 .portfoloi-content {
-    padding-top: 20px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 20px;
+padding-left: 24px;
 }
 
 /*----------------------FOOTER-------------------------*/
@@ -266,5 +279,5 @@ margin-bottom: 9px;
 .footer-address-link:focus,
 .footer-address-contact:hover,
 .footer-address-contact:focus {
-    color: var(--second-main-color);
+color: var(--second-main-color);
 }
